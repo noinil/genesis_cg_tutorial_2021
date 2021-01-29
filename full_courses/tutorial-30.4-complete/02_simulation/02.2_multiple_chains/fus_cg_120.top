@@ -1,0 +1,15 @@
+#include "./param/atom_types.itp" 
+#include "./param/flexible_local_angle.itp" 
+#include "./param/flexible_local_dihedral.itp" 
+#include "./param/pair_energy_MJ_96.itp" 
+
+#include "./top/fus_cg.itp" 
+
+[ system ] 
+multiple fus_cg 
+
+[ molecules ] 
+fus_cg  120
+
+[ cg_ele_chain_pairs ] 
+ON 1 - 120 : 1 - 120

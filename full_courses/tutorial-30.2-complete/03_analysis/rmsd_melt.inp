@@ -1,0 +1,24 @@
+[INPUT]
+psffile        = ../01_setup/dsDNA_x3dna_new_cg.psf
+reffile        = ../01_setup/dsDNA_x3dna_new_cg.pdb
+
+[OUTPUT]
+rmsfile        = run_melt.rms
+
+[TRAJECTORY]
+trjfile1       = ../02.1_simulation_melting/dna_md1_melt.dcd
+md_step1       = 15000
+mdout_period1  = 1000
+ana_period1    = 1
+trj_format     = DCD
+trj_type       = COOR
+
+[SELECTION]
+group1         = all
+
+[FITTING]
+fitting_method = TR+ROT
+fitting_atom   = 1
+
+[OPTION]
+check_only     = NO

@@ -1,0 +1,24 @@
+[INPUT]
+psffile        = ../01_setup/1PGB_cg.psf
+reffile        = ../01_setup/1PGB_cg.pdb
+
+[OUTPUT]
+rmsfile        = pro_md1.rms
+
+[TRAJECTORY]
+trjfile1       = ../02_simulation/pro_md1.dcd
+md_step1       = 50000000
+mdout_period1  = 10000
+ana_period1    = 1
+trj_format     = DCD
+trj_type       = COOR
+
+[SELECTION]
+group1         = all
+
+[FITTING]
+fitting_method = TR+ROT
+fitting_atom   = 1
+
+[OPTION]
+check_only     = NO
