@@ -1,0 +1,29 @@
+#+TITLE: CG MD tutorials for GENESIS 1.7
+#+AUTHOR: Cheng Tan
+#+EMAIL: i@c-tan.com
+
+* Structure
+
+  This repository contains three directories:
+  - =full_courses=: all the materials including example output;
+  - =official_materials=: minimal data-set, without output;
+  - =releases=: tar-balls of the =official_materials=.
+
+
+  
+* Tutorial stories
+  - Protein folding with the AICG2+ [fn:1]
+  - DNA partial melting and re-hybridization with the 3SPN.2C [fn:2]
+  - Protein-DNA sequence-specific recognition with the PWMcos [fn:3]
+  - IDR condensation with the HPS [fn:4]
+    
+  
+* References
+
+[fn:1] Li W., Wang W., Takada S., *2014*, /Proc. Nation. Acad. Sci./, 111, 10550-10555.
+
+[fn:2] Freeman G. S., Hinckley D. M., Lequieu J. P., Whitmer J. K., de Pablo J. J., *2014*, /J. Chem. Phy./, 141 (16), 165103.
+
+[fn:3] Tan C., Takada S., *2018*, /J. Chem. Theor. Comput./, 14, 3877-3889.
+
+[fn:4] Dignon G. L., Zheng W., Kim Y. C., Best R. B., Mittal J., /PLOS Comput. Biol./, *2018*, 14(1), e1005941.
